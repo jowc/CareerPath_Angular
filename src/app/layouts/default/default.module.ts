@@ -4,6 +4,7 @@ import { DefaultComponent } from './default.component';
 import { ContainerComponent } from 'src/app/modules/container/container.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 
@@ -15,7 +16,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
   imports: [
     CommonModule,
     RouterModule,
-    SharedModule
+    SharedModule,
+    MatSidenavModule
   ]
 })
 export class DefaultModule { }
